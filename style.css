@@ -19,26 +19,25 @@ body {
 }
 
 .logo{
-    font-size: 22px;
+    font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
 }
 
 .header-right {
-    color: white;
-    display: flex;
-    
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
-ul {
+.header ul {
     list-style-type: none;
     display: flex;
     gap: 24px;
 }
 
-ul a {
+.header ul a {
     font-size: 18px;
-    color: #E5E7E8;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
@@ -46,3 +45,42 @@ ul a:hover {
     color: #ffffff;
 }
 
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    padding: 80px 100px;
+}
+
+.hero-text {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.hero button {
+    padding: 5px 30px;
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 450px;
+    flex: 1;
+}
