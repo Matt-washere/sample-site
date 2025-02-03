@@ -210,4 +210,12 @@ ul a:hover {
     border-color: white;
 }
 
-/* header styling */
+/* footer styling */
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
