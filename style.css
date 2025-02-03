@@ -9,6 +9,7 @@ body {
     padding: 0;
 }
 
+/* Header styling */
 .header {
     background-color: #1F2937;
     display: flex;
@@ -45,6 +46,8 @@ ul a:hover {
     color: #ffffff;
 }
 
+
+/* Hero Styling */
 .hero {
     display: flex;
     background-color: #1F2937;
@@ -85,6 +88,7 @@ ul a:hover {
     flex: 1;
 }
 
+/* random info styling */
 .Random-info {
     display: flex;
     flex-direction: column;
@@ -121,5 +125,34 @@ ul a:hover {
     margin-top: 10px;
     font-size: 15px;
     color: #1F2937
+}
+
+/* quote section styling */
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 80px 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    max-width: 800px;
+    padding-bottom: 40px;
+}
+
+.signature {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 18px;
+    white-space: nowrap;
+    margin-top: 10px;
+    position: absolute;
+    margin-right: 20px;
 }
 
