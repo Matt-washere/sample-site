@@ -83,6 +83,11 @@ ul a:hover {
     cursor: pointer;
 }
 
+.hero button:hover {
+    background-color: #0069d9;
+    border-color: white;
+}
+
 .hero img {
     max-width: 450px;
     flex: 1;
